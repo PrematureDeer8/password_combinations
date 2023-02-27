@@ -1,0 +1,15 @@
+import time
+import string
+import multiprocessing as mp
+import numpy as np;
+
+digits  = int(input("How many characters is the password: "));
+
+length  = len(string.ascii_lowercase);e
+
+lets = [];
+
+for i in range(0, length**digits):
+	if((i+1)%length == 0):
+		for dig in range(0, digits):
+			print(str(string.ascii_lowercase[0];
